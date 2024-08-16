@@ -6,6 +6,7 @@ body, ul, li, h1, h2, a {
 
 header {
     background: #f63232;
+    box-sizing: border-box;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -138,9 +139,14 @@ nav li:hover {
     text-decoration: underline;
 }
 
+.images {
+    transition: all 0.5s ease;
+}
+
 .images li:hover {
     position: relative;
     top: -4px;
+    transform: scale(1.1);
 }
 
 form input:focus {
